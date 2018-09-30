@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <title>Weather Dashboard</title>
-  </head>
-  <body>
 
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <title>Weather Dashboard</title>
+</head>
 
-    <!-- Add your code here! -->
-    <div class="header">
-      <h1>Today's weather in</h1>
+<body>
+
+  <!-- Add your code here! -->
+  <div class="headerSection">
+    <h1>Today's weather in</h1>
+  </div>
+
+  <div class="container">
+    <div class="containerSthlm" id="Sthlm">
+      <div id="sthlm" class="city"></div>
+      <div id="tempSthlm" class="temp"></div>
+      <div id="descSthlm" class="desc"></div>
     </div>
 
-    <div class="row">
+    <div class="containerGbg" id="Gbg">
+      <div id="gbg" class="city"></div>
+      <div id="tempGbg" class="temp"></div>
+      <div id="descGbg" class="desc"></div>
     </div>
 
-    <div class="column">
-      <div id="cityName"></div>
-      <div id="iconImage"><img src="./icon.png" /></div>
-      <div id="temperature"></div>
-      <div id="description"></div>
+    <div class="containerMalmo" id="Malmo">
+      <div id="malmo" class="city"></div>
+      <div id="tempMalmo" class="temp"></div>
+      <div id="descMalmo" class="desc"></div>
     </div>
+  </div>
 
-
-  </body>
-  <script src="./my-script.js"></script>
+</body>
+<script src="./my-script.js"></script>
 
 </html>
